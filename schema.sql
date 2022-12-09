@@ -6,3 +6,7 @@ CREATE TABLE TBL_Animals (
 	neutered BOOLEAN,
 	weight_kg DECIMAL
 )
+
+-- Add a column species of type string to your animals table. Modify your schema.sql file.
+ALTER TABLE tbl_animals
+ADD COLUMN species varchar;
